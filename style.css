@@ -1,0 +1,121 @@
+/* HEADER */
+/* pour éviter le scrool horizontal */
+html,
+body {
+    overflow-x: hidden
+}
+
+/* poppins-regular - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/poppins-v20-latin-regular.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* poppins-800 - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    src: url('fonts/poppins-v20-latin-800.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+body {
+    font-family: 'Poppins';
+    background-color: rgba(245, 245, 220, 0.178)
+}
+
+.container {
+    width: 1200px;
+}
+
+/* HEADER */
+#bandeau {
+    background-image: url("./images/banner.jpg");
+    background-size: cover;
+    min-height: 350px;
+    padding-bottom: 10px;
+}
+#bandeaudeux{
+   
+    padding-bottom: 10px;
+}
+#diamant{
+    align-self: center;
+    width:50%;
+}
+#diamant #diam i{
+    font-size:3rem;
+    border:3px solid #FFF;
+    padding:8px;
+    margin-top:100px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+#menuprincipal{
+    width:20%;
+    align-self:flex-start; 
+}
+#menuprincipal button i{
+    font-size:2rem;
+}
+
+.btn-custum {
+    border-radius: 17px;
+    -webkit-border-radius: 17px;
+    -moz-border-radius: 17px;
+    -ms-border-radius: 17px;
+    -o-border-radius: 17px;
+    background-color: lightgreen;
+    margin-top: 10px;
+}
+.route{
+    width: 75%;
+}
+
+/**************************** MAIN *******************************/
+/************************ Section premier **********************/
+.btn-outline-custum {
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    border-color: lightgreen;
+}
+
+
+/****************************** Section deuxième ************ */
+
+
+.btn-outline-fin{
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    border-color: lightgreen;
+
+}
+/******** FOOTER ***************************/
+
+
+.btn-outline-footer{
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    border-color: white;
+    
+}
